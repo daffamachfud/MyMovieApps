@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MyMovieApps</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_file">File</string>
+    <string name="nohflix">NOHFLIX</string>
+
+    <string name="featured">Featured</string>
+    <string name="films">Films</string>
+    <string name="series">Series</string>
+    <string name="origin">Origin</string>
+    <string name="tvshow">Tv Show</string>
+    <string name="documentary">Documentary</string>
+    <string name="popular_today">Popular Today</string>
+    <string name="marvel">Marvel</string>
+    <string name="fans">Fans Choice</string>
+    <string name="starwars">Star Wars</string>
+    <string name="dc">DC Movie</string>
+    <string name="new_release">New Release</string>
+    <string name="view_more">View More</string>
+    <string name="rating">Rating</string>
+    <string name="trending_this_week">Trending This Week</string>
+    <string name="popular_movies">Popular Movies</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+
+
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".ui.home.featured.FeaturedFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+      <include
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          layout="@layout/layout_filter_populared"/>
+
+      <include
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          layout="@layout/layout_trending_wthis_week"/>
+
+      <include
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          layout="@layout/layout_popular_movies"/>
+   </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
